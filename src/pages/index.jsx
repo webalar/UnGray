@@ -5,7 +5,7 @@ import MobileAppDark from "./mobile-app/mobile-app-dark"
 const Home = () => {
   return (
     <>
-      <MobileAppDark />
+      <MobileAppLight />
     </>
   );
 };

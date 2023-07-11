@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import appData from "../../data/app.json"
 
 const Footer2 = () => {
   return (
@@ -9,7 +10,7 @@ const Footer2 = () => {
           <div className="col-lg-4 col-md-6">
             <div className="item-clumn our md-mb50">
               <a href="#0" className="logo-brand mb-50">
-                <img src="/img/logo-gr.png" alt="" />
+                <img src={appData.lightLogo} alt="" />
               </a>
               <p>
                 Sed ut perspiciatis undmnis iste natus error sit voluptatem
