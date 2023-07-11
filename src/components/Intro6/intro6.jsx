@@ -15,7 +15,7 @@ const Intro6 = () => {
               </p>
               <div className="butons mt-40">
                 <a href="#0" className="butn-gr rounded buton">
-                  <span>Get Demo</span>
+                  <span>Book a Demo</span>
                   {/* <i className="icon">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
