@@ -1,6 +1,6 @@
 import React from "react";
 // import Demos from "./demos/demos";
-import MobileAppDark from "./mobile-app/mobile-app-dark"
+import MobileAppLight from "./mobile-app/mobile-app-light";
 
 const Home = () => {
   return (
