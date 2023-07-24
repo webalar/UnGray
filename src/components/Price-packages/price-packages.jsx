@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 const PricePackages = ({ bgGray }) => {
   return (
@@ -30,9 +31,9 @@ const PricePackages = ({ bgGray }) => {
                       </h3> */}
                     </div>
                     <div className="order mb-40">
-                      <a href="/contact/contact-light" className="butn-gray rounded buton">
+                      <Link href="/contact/contact-light" className="butn-gray rounded buton">
                         <span>Contact Us</span>
-                      </a>
+                      </Link>
                     </div>
                     <div className="feat">
                       <ul>
@@ -122,9 +123,9 @@ const PricePackages = ({ bgGray }) => {
                       </h3> */}
                     </div>
                     <div className="order mb-40">
-                      <a href="/contact/contact-light" className="butn-gr rounded buton">
+                      <Link href="/contact/contact-light" className="butn-gr rounded buton">
                         <span>Demo</span>
-                      </a>
+                      </Link>
                     </div>
                     <div className="feat">
                       <ul>
