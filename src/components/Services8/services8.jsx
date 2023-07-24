@@ -17,61 +17,15 @@ const Services8 = () => {
         </div>
         <div className="row">
           <div className="col-lg-4 col-md-6">
-            <div className="item mb-30">
-              <div className="item-tit mb-15">
-                <div className="icon">
-                  <span className="pe-7s-vector"></span>
-                </div>
-                <div className="text-tit">
-                  <h5>Influencer Discovery</h5>
-                </div>
-              </div>
-
-              <p>
-                unde omniste natus error sit voluptatem accus antium dolore mque
-                laudant totam rem aperiam.
-              </p>
-            </div>
-          </div>
-          <div className="col-lg-4 col-md-6">
-            <div className="item mb-30">
-              <div className="item-tit mb-15">
-                <div className="icon">
-                  <span className="pe-7s-rocket"></span>
-                </div>
-                <div className="text-tit">
-                  <h5>Social Media Listening</h5>
-                </div>
-              </div>
-
-              <p>
-                unde omniste natus error sit voluptatem accus antium dolore mque
-                laudant totam rem aperiam.
-              </p>
-            </div>
-          </div>
-          <div className="col-lg-4 col-md-6">
-            <div className="item mb-30">
-              <div className="item-tit mb-15">
-                <div className="icon">
-                  <span className="pe-7s-graph3"></span>
-                </div>
-                <div className="text-tit">
-                  <h5>News Monitoring</h5>
-                </div>
-              </div>
-
-              <p>
-                unde omniste natus error sit voluptatem accus antium dolore mque
-                laudant totam rem aperiam.
-              </p>
-            </div>
-          </div>
-          <div className="col-lg-4 col-md-6">
             <div className="item sm-mb50">
               <div className="item-tit mb-15">
                 <div className="icon">
-                  <span className="pe-7s-anchor"></span>
+                  {/* <span className="pe-7s-anchor"></span> */}
+                  <img
+                      src="/img/icon_comment-analysis.png"
+                      alt=""
+                      className="bord-gr"
+                    />
                 </div>
                 <div className="text-tit">
                   <h5>Comment Analysis</h5>
@@ -88,7 +42,12 @@ const Services8 = () => {
             <div className="item sm-mb50">
               <div className="item-tit mb-15">
                 <div className="icon">
-                  <span className="pe-7s-phone"></span>
+                  {/* <span className="pe-7s-phone"></span> */}
+                  <img
+                      src="/img/icon_competitor-analysis.png"
+                      alt=""
+                      className="bord-gr"
+                    />
                 </div>
                 <div className="text-tit">
                   <h5>Competitor Monitoring</h5>
@@ -102,13 +61,84 @@ const Services8 = () => {
             </div>
           </div>
           <div className="col-lg-4 col-md-6">
+            <div className="item mb-30">
+              <div className="item-tit mb-15">
+                <div className="icon">
+                  {/* <span className="pe-7s-vector"></span> */}
+                  <img
+                      src="/img/icon_influencer-discovery.png"
+                      alt=""
+                      className="bord-gr"
+                    />
+                </div>
+                <div className="text-tit">
+                  <h5>Influencer Discovery</h5>
+                </div>
+              </div>
+
+              <p>
+                unde omniste natus error sit voluptatem accus antium dolore mque
+                laudant totam rem aperiam.
+              </p>
+            </div>
+          </div>
+          <div className="col-lg-4 col-md-6">
             <div className="item">
               <div className="item-tit mb-15">
                 <div className="icon">
-                  <span className="pe-7s-lock"></span>
+                  {/* <span className="pe-7s-lock"></span> */}
+                  <img
+                      src="/img/icon_market-research.png"
+                      alt=""
+                      className="bord-gr"
+                    />
                 </div>
                 <div className="text-tit">
                   <h5>Market Research</h5>
+                </div>
+              </div>
+
+              <p>
+                unde omniste natus error sit voluptatem accus antium dolore mque
+                laudant totam rem aperiam.
+              </p>
+            </div>
+          </div>
+          <div className="col-lg-4 col-md-6">
+            <div className="item mb-30">
+              <div className="item-tit mb-15">
+                <div className="icon">
+                  {/* <span className="pe-7s-graph3"></span> */}
+                  <img
+                      src="/img/icon_news-monitoring.png"
+                      alt=""
+                      className="bord-gr"
+                    />
+                </div>
+                <div className="text-tit">
+                  <h5>News Monitoring</h5>
+                </div>
+              </div>
+
+              <p>
+                unde omniste natus error sit voluptatem accus antium dolore mque
+                laudant totam rem aperiam.
+              </p>
+            </div>
+          </div>
+          <div className="col-lg-4 col-md-6">
+            <div className="item mb-30">
+              <div className="item-tit mb-15">
+                <div className="icon">
+                  {/* <span className="pe-7s-rocket"></span> */}
+                  <img
+                      src="/img/icon_social-media-listening.png"
+                      alt=""
+                      className="bord-gr"
+                    />
+                </div>
+                <div className="text-tit">
+                  <h5>Social Media Listening</h5>
                 </div>
               </div>
 

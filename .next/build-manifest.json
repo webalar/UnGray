@@ -24,6 +24,16 @@
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
+    ],
+    "/contact/contact-light": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/contact/contact-light.js"
+    ],
+    "/mobile-app/mobile-app-light": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/mobile-app/mobile-app-light.js"
     ]
   },
   "ampFirstPages": []

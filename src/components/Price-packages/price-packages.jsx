@@ -25,12 +25,12 @@ const PricePackages = ({ bgGray }) => {
                       <h5>For Agencies</h5>
                     </div>
                     <div className="amount text-center mb-40">
-                      <h3>
+                      {/* <h3>
                         <span>$</span> 0
-                      </h3>
+                      </h3> */}
                     </div>
                     <div className="order mb-40">
-                      <a href="#0" className="butn-gray rounded buton">
+                      <a href="/contact/contact-light" className="butn-gray rounded buton">
                         <span>Contact Us</span>
                       </a>
                     </div>
@@ -117,12 +117,12 @@ const PricePackages = ({ bgGray }) => {
                       <h5>For Brands</h5>
                     </div>
                     <div className="amount text-center mb-40">
-                      <h3>
+                      {/* <h3>
                         <span>$</span> 59
-                      </h3>
+                      </h3> */}
                     </div>
                     <div className="order mb-40">
-                      <a href="#0" className="butn-gr rounded buton">
+                      <a href="/contact/contact-light" className="butn-gr rounded buton">
                         <span>Demo</span>
                       </a>
                     </div>

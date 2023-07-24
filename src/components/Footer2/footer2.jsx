@@ -18,7 +18,7 @@ const Footer2 = () => {
               </p>
             </div>
           </div>
-          <div className="col-lg-3 col-md-6">
+          <div className="col-lg-4 col-md-6">
             <div className="item-clumn links md-mb50">
               <h5 className="title">Resources</h5>
               <ul>
@@ -41,7 +41,7 @@ const Footer2 = () => {
               </ul>
             </div>
           </div>
-          <div className="col-lg-2 col-md-6">
+          {/* <div className="col-lg-2 col-md-6">
             <div className="item-clumn links sm-mb50">
               <h5 className="title">Links</h5>
               <ul>
@@ -65,14 +65,14 @@ const Footer2 = () => {
                 </li>
               </ul>
             </div>
-          </div>
-          <div className="col-lg-3 col-md-6">
+          </div> */}
+          <div className="col-lg-4 col-md-6">
             <div className="item-clumn links">
               <h5 className="title mb-30">Contact</h5>
               <div className="info">
                 <span>Email Address</span>
                 <h6>
-                  <a href="#0">support@gmail.com</a>
+                  <a href="#0">admin@ungraytech.com</a>
                 </h6>
               </div>
               <div className="social mt-30">
@@ -98,7 +98,7 @@ const Footer2 = () => {
           <div className="row">
             <div className="col-12">
               <div className="text-center">
-                <p>© 2022 Vie. All Rights Reserved</p>
+                <p>© 2023 UnGray. All Rights Reserved</p>
               </div>
             </div>
           </div>

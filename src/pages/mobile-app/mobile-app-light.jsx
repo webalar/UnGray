@@ -48,12 +48,12 @@ const MobileAppLight = () => {
         <Services7 lightTheme />
         <Services8 />
         <Screenshots />
-        <Progress />
+        {/* <Progress /> */}
         <VideoWithTeam />
         <PricePackages />
-        <Testimonials />
+        {/* <Testimonials /> */}
         <DownloadApp />
-        <Blogs2 />
+        {/* <Blogs2 /> */}
         <Footer2 />
       </LightTheme>
     </>

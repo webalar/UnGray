@@ -33,9 +33,9 @@ const Screenshots = () => {
               {load ? (
                 <Swiper
                   speed={1000}
-                  spaceBetween={30}
+                  spaceBetween={20}
                   loop={true}
-                  slidesPerView={5}
+                  slidesPerView={2}
                   pagination={{
                     clickable: true,
                     el: paginationRef.current,
@@ -47,56 +47,84 @@ const Screenshots = () => {
                       spaceBetween: 0,
                     },
                     640: {
-                      slidesPerView: 2,
+                      slidesPerView: 1,
                     },
                     767: {
-                      slidesPerView: 3,
+                      slidesPerView: 2,
                       centeredSlides: false,
                     },
                     991: {
-                      slidesPerView: 5,
+                      slidesPerView: 2,
                     },
                   }}
                 >
                   <SwiperSlide className="swiper-slide">
                     <div className="item">
                       <div className="img">
-                        <img src="/img/mobile-app/screenshots/1.png" alt="" />
+                        <img src="/img/mobile-app/screenshots/Mockup 01.jpg" alt="" />
                       </div>
                     </div>
                   </SwiperSlide>
                   <SwiperSlide className="swiper-slide">
                     <div className="item">
                       <div className="img">
-                        <img src="/img/mobile-app/screenshots/2.png" alt="" />
+                        <img src="/img/mobile-app/screenshots/Mockup 02.jpg" alt="" />
                       </div>
                     </div>
                   </SwiperSlide>
                   <SwiperSlide className="swiper-slide">
                     <div className="item">
                       <div className="img">
-                        <img src="/img/mobile-app/screenshots/3.png" alt="" />
+                        <img src="/img/mobile-app/screenshots/Mockup 03.jpg" alt="" />
                       </div>
                     </div>
                   </SwiperSlide>
                   <SwiperSlide className="swiper-slide">
                     <div className="item">
                       <div className="img">
-                        <img src="/img/mobile-app/screenshots/4.png" alt="" />
+                        <img src="/img/mobile-app/screenshots/Mockup 04.jpg" alt="" />
                       </div>
                     </div>
                   </SwiperSlide>
                   <SwiperSlide className="swiper-slide">
                     <div className="item">
                       <div className="img">
-                        <img src="/img/mobile-app/screenshots/5.png" alt="" />
+                        <img src="/img/mobile-app/screenshots/Mockup 05.jpg" alt="" />
                       </div>
                     </div>
                   </SwiperSlide>
                   <SwiperSlide className="swiper-slide">
                     <div className="item">
                       <div className="img">
-                        <img src="/img/mobile-app/screenshots/3.png" alt="" />
+                        <img src="/img/mobile-app/screenshots/Mockup 06.jpg" alt="" />
+                      </div>
+                    </div>
+                  </SwiperSlide>
+                  <SwiperSlide className="swiper-slide">
+                    <div className="item">
+                      <div className="img">
+                        <img src="/img/mobile-app/screenshots/Mockup 07.jpg" alt="" />
+                      </div>
+                    </div>
+                  </SwiperSlide>
+                  <SwiperSlide className="swiper-slide">
+                    <div className="item">
+                      <div className="img">
+                        <img src="/img/mobile-app/screenshots/Mockup 07.jpg" alt="" />
+                      </div>
+                    </div>
+                  </SwiperSlide>
+                  <SwiperSlide className="swiper-slide">
+                    <div className="item">
+                      <div className="img">
+                        <img src="/img/mobile-app/screenshots/Mockup 09.png" alt="" />
+                      </div>
+                    </div>
+                  </SwiperSlide>
+                  <SwiperSlide className="swiper-slide">
+                    <div className="item">
+                      <div className="img">
+                        <img src="/img/mobile-app/screenshots/Mockup 10.png" alt="" />
                       </div>
                     </div>
                   </SwiperSlide>

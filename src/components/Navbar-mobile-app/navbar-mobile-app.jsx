@@ -87,7 +87,7 @@ const NavbarMobileApp = ({ lr, nr, theme }) => {
                 <a className="nav-link">Home</a>
               </Link>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <Link href="/about/about-light">
                 <a className="nav-link">About</a>
               </Link>
@@ -110,9 +110,9 @@ const NavbarMobileApp = ({ lr, nr, theme }) => {
                 Products
               </a>
               </Link>
-            </li>
+            </li> */}
             <li className="nav-item">
-              <Link href="/contact/contact-dark">
+              <Link href="/contact/contact-light">
               <a className="nav-link" >
                 Contact
               </a>

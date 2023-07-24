@@ -58,40 +58,40 @@ const VideoWithTeam = () => {
         </div>
 
         <div className="row">
-          <div className="col-lg-3 col-md-6">
+          <div className="col-lg-4 col-md-6">
             <div className="item text-center md-mb50">
               <div className="img">
-                <img src="/img/mobile-app/team/1.png" alt="" />
+                <img src="/img/mobile-app/team/team-ashutosh.jpeg" alt="" />
               </div>
               <div className="info">
-                <h5>Eddie E. Moseley</h5>
-                <p>CEO &amp; Founder</p>
+                <h5>Ashutosh Deshmukh</h5>
+                <p>Co-founder</p>
               </div>
             </div>
           </div>
-          <div className="col-lg-3 col-md-6">
+          <div className="col-lg-4 col-md-6">
             <div className="item text-center md-mb50">
               <div className="img">
-                <img src="/img/mobile-app/team/2.png" alt="" />
+                <img src="/img/mobile-app/team/team-atharva.jpeg" alt="" />
               </div>
               <div className="info">
-                <h5>John J. Schreffler</h5>
-                <p>Apps Designer</p>
+                <h5>Atharva Pandit</h5>
+                <p>Co-founder</p>
               </div>
             </div>
           </div>
-          <div className="col-lg-3 col-md-6">
+          <div className="col-lg-4 col-md-6">
             <div className="item text-center sm-mb50">
               <div className="img">
-                <img src="/img/mobile-app/team/3.png" alt="" />
+                <img src="/img/mobile-app/team/team-aum.jpeg" alt="" />
               </div>
               <div className="info">
-                <h5>Venessa M. Meister</h5>
-                <p>Web Developer</p>
+                <h5>Aum Patil</h5>
+                <p>Co-founder</p>
               </div>
             </div>
           </div>
-          <div className="col-lg-3 col-md-6">
+          {/* <div className="col-lg-3 col-md-6">
             <div className="item text-center">
               <div className="img">
                 <img src="/img/mobile-app/team/4.png" alt="" />
@@ -101,7 +101,7 @@ const VideoWithTeam = () => {
                 <p>Senior Manager</p>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
 
